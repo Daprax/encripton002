@@ -1,4 +1,5 @@
 from encripts import *
+from youser_secure import *
 
 class MENU:
 
@@ -14,15 +15,15 @@ class MENU:
         if chous == "a":
             return "bos"
         elif chous == "x":
-            return
+            return 0                                                        #onli the '0' break the main while
         else:
-            MENU.m_menu()
-            return
+            #MENU.m_menu()
+            return 1
     def bos_menu():
         print("Wud you code: c); or decode d)?")                            #Option fo change the direction of lether bossing.
         chous = input()                                                     #C) mean the right (as the ABC run); D) mean the oposit direction.
         print("How much will you bos the characters?")
-        n_bos = int(input())                                                     #The mesure of the bosing.
+        n_bos = int(bee_num(input()))                                       #The mesure of the bosing.
         print("Wat text will you encripting?")                              
         text = input()                                                      #It si the text wat wee nead encripting. 
         if chous == "c":
@@ -33,7 +34,7 @@ class MENU:
 
             return
         else:
-            menu()
+            MENU.m_menu()
             return
         
 
