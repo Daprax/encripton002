@@ -22,6 +22,15 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="encripton002.py" />
+    <Compile Include="menus.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="encripts.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="youser_secure.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
