@@ -37,6 +37,7 @@ class BOS:
             return actual_char
 
 
+
 class SCYTALE:
 
     def code(size, text):
@@ -79,3 +80,4 @@ class SCYTALE:
         
             print (r_text_)
         return r_text
+

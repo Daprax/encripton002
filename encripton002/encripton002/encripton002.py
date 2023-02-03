@@ -1,5 +1,3 @@
-<<<<<<< Updated upstream
-=======
 import numpy
 import sys
 from menus import *
@@ -15,8 +13,3 @@ while m_m_v != 0:
     elif m_m_v == "scytale":
         menu.scytale_menu()
 print("Thank you for ur using!")
-        
-        
-   
->>>>>>> Stashed changes
-
